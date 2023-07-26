@@ -1,0 +1,37 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<MapDocument IsRelativePath="1">
+ <Maps>
+  <Map Name="Map" MapID="map_{03bee6c0-1cd6-455f-8dd0-b4f7ac7d420a}">
+   <SpatialReference WKT="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS_84&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]]"/>
+   <Envelope Top="86.19394912545141" Left="-180" Bottom="-92.57035293404519" Right="180.0000000000001"/>
+   <Layers>
+    <Layer Description="" Visible="1" IsRelativePath="1" MaximumScale="0" MinimumScale="0" Name="国家_线.shp" Type="2">
+     <DataSource FilePath="国家_线.shp"/>
+     <AnnotateProperties ShowAnno="0" AnnoField="CNTRY_NAME" MaximumScale="0" MinimumScale="0" TextSymbol="{&#xa;    &quot;Angle&quot;: 0,&#xa;    &quot;Color&quot;: 4278190080,&#xa;    &quot;Font&quot;: {&#xa;        &quot;Bold&quot;: false,&#xa;        &quot;Family&quot;: &quot;宋体&quot;,&#xa;        &quot;Italic&quot;: false,&#xa;        &quot;Underline&quot;: false&#xa;    },&#xa;    &quot;Size&quot;: 9,&#xa;    &quot;Text&quot;: &quot;&quot;,&#xa;    &quot;Type&quot;: 401&#xa;}&#xa;"/>
+     <FeatureRender strDesc="" strLabel="" Type="10" bCanRender="1">
+      <Symbol SymbolJSON="{&#xa;    &quot;CapStyle&quot;: 1,&#xa;    &quot;Color&quot;: 4278190335,&#xa;    &quot;JoinStyle&quot;: 1,&#xa;    &quot;MiterLimit&quot;: 0,&#xa;    &quot;Offset&quot;: 0,&#xa;    &quot;Style&quot;: 0,&#xa;    &quot;Type&quot;: 201,&#xa;    &quot;Width&quot;: 1&#xa;}&#xa;"/>
+     </FeatureRender>
+    </Layer>
+   </Layers>
+   <GraphicsLayer CanRotate="true" Visible="true" Name="GraphicsLayer" Type="3">
+    <SpatialReference WKT="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS_84&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]]"/>
+    <Elements/>
+   </GraphicsLayer>
+  </Map>
+ </Maps>
+ <PageLayout>
+  <Envelope Top="31.185" Left="-1.050000000000001" Bottom="-1.485000000000001" Right="22.05"/>
+  <PageInfo FormID="7" CustomWidth="21" Orientation="1" CustomHeight="29.7"/>
+  <GraphicsLayer CanRotate="true" Visible="true" Name="GraphicsLayer" Type="3">
+   <SpatialReference/>
+   <Elements>
+    <Element Locked="0" Name="" Type="11" ID="element_{ded6dd72-936e-4728-b989-06205fe4b943}">
+     <Geomtry GeomtryJson="{&#xa;    &quot;GeometryData&quot;: &quot;0.8,0.8,20.2,28.9&quot;,&#xa;    &quot;GeometryType&quot;: 32&#xa;}&#xa;"/>
+     <Map MapID="map_{03bee6c0-1cd6-455f-8dd0-b4f7ac7d420a}"/>
+     <GeoEnvelope MinX="-180" MaxY="83.62359619140625" MaxX="180.0000000000001" MinY="-90.00000000000004"/>
+     <Border Name="" LineSymbol="{&#xa;    &quot;CapStyle&quot;: 1,&#xa;    &quot;Color&quot;: 4278190080,&#xa;    &quot;JoinStyle&quot;: 1,&#xa;    &quot;MiterLimit&quot;: 0,&#xa;    &quot;Offset&quot;: 0,&#xa;    &quot;Style&quot;: 0,&#xa;    &quot;Type&quot;: 201,&#xa;    &quot;Width&quot;: 1&#xa;}&#xa;" GapX="0" GapY="0" CornerRounding="0"/>
+    </Element>
+   </Elements>
+  </GraphicsLayer>
+ </PageLayout>
+</MapDocument>
